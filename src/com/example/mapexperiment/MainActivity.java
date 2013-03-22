@@ -21,6 +21,7 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 
+
 public class MainActivity extends FragmentActivity implements LocationListener {
 
 	GoogleMap googleMap;
