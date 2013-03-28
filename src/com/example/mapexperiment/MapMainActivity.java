@@ -27,7 +27,7 @@ public class MapMainActivity extends FragmentActivity implements LocationListene
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.map_main_activity);
 		button = (Button) findViewById(R.id.button1);
 		// Getting Google Play availability status
 		int status = GooglePlayServicesUtil
